@@ -1,0 +1,14 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^4.2.3"
+  },
+  "private": true,
+  "workspaces": [
+    "modules/*",
+    "webapp"
+  ]
+}

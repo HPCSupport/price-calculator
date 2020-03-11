@@ -1,0 +1,1 @@
+export const from_currency = (x:string) => +x.replace(/\$|,/g, ``)
