@@ -30,3 +30,17 @@ cd webapp
 yarn build-demo
 ```
 This builds the webapp to `docs`
+
+
+### Using the site
+By itself the site will not have any price data associated with it.
+In order to set the price, you will need to append the price data in the query string of the URL.
+```
+cpu: $0.30
+gpu: $0.45
+storage: $500
+```
+would be appended as
+```
+https://site-url/?cpu=0.30&gpu=0.45&storage=250
+```
