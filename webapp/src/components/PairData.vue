@@ -12,7 +12,7 @@ div(data-pair-data class='flex flex-col')
 </template>
 
 <script lang='ts'>
-import { createComponent, computed, ref, watch } from "@vue/composition-api";
+import { defineComponent, computed, ref, watch } from "@vue/composition-api";
 import { mul, to_precise, from_precise } from "@asset-vector/precise-number";
 import { to_currency } from "@asset-vector/currency";
 import { compose } from "lodash/fp";
@@ -27,7 +27,7 @@ type Props = {
   price: number;
 };
 
-export const component = createComponent<Props>({
+export const component = defineComponent<Props>({
   props: {
     h1: { type: String, required: true },
     h2: { type: String, required: true },
