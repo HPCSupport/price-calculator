@@ -32,15 +32,20 @@ yarn build-demo
 This builds the webapp to `docs`
 
 
-### Using the site
+### Using the application
 By itself the site will not have any price data associated with it.
-In order to set the price, you will need to append the price data in the query string of the URL.
-```
-cpu: $0.30
-gpu: $0.45
-storage: $500
-```
-would be appended as
-```
-https://site-url/?cpu=0.30&gpu=0.45&storage=250
-```
+In order to configure the application, access the site without any queries.
+
+In this page, setup what options you want displayed, then click on **go**.
+
+Configuration options
+- Title: This will be displayed as the box header.
+- Item: This is the item being sold.
+- Units: This is the counting units of the item.
+- Cost: This is how much a single unit costs.
+
+For example if you want to bill **$5** per **hour** of **work** for **painting**, you will set the following:
+- Title: Painting
+- Item: Workers
+- Units: Hours
+- Cost: 5
