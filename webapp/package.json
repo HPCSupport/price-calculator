@@ -15,14 +15,16 @@
     "@asset-vector/currency": "^0.0.0",
     "@asset-vector/precise-number": "^0.0.0",
     "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@types/qs": "^6.9.1",
     "@vue/composition-api": "^0.4.0",
     "core-js": "^3.6.4",
     "lodash": "^4.17.15",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
-    "query-string": "^6.11.1",
+    "qs": "^6.9.3",
     "tailwindcss": "^1.2.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuedraggable": "^2.23.2"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
